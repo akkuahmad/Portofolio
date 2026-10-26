@@ -1,6 +1,6 @@
 # Portfolio — Ahmad Izzuddin
 
-![Portfolio Preview] screenshoot/Screenshot.png
+![Portfolio Preview](screenshoot/Screenshot.png)
 
 ## About
 
