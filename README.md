@@ -67,4 +67,4 @@ Proyek ini bersifat open source dan bebas digunakan sebagai referensi atau templ
 **Ahmad Izzuddin**
 - Email: akkuahmad23@email.com
 - GitHub: [github.com/akkuahmad](https://github.com/akkuahmad)
-- LinkedIn: [linkedin.com/in/akkuahmad](https://linkedin.com/in/akkuahmad)
+- LinkedIn: [linkedin.com/in/akkuahmad](https://id.linkedin.com/in/akku-ahmad-064231445)
