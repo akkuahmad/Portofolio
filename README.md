@@ -29,3 +29,42 @@ Database di-generate otomatis saat pertama kali dijalankan — tidak perlu setup
 | Icons    | Bootstrap Icons                       |
 
 ## Struktur File
+portfolio/
+├── screenshoot/
+│ └── Screenshot.png # Screenshot tampilan website
+├── index.php # Halaman utama
+├── contact.php # Endpoint POST untuk form kontak
+├── db.php # Koneksi PDO + inisialisasi + seed data
+├── .gitignore # Mengabaikan file .db
+└── README.md
+
+
+## Instalasi & Menjalankan
+
+**Persyaratan:** PHP 7.4+ dengan ekstensi PDO dan PDO_SQLite aktif.
+
+1. Clone repository ini:
+   ```bash
+   git clone https://github.com/akkuahmad/Portofolio.git
+   cd Portofolio
+   ```
+2. Jalankan dengan PHP built-in server:
+   ```bash
+   php -S localhost:8000
+   ```
+3. Buka browser dan akses `http://localhost:8000`
+
+File database `portfolio.db` akan otomatis dibuat dan diisi data saat pertama kali diakses.
+
+## Kustomisasi
+
+Untuk mengganti data profil, skill, proyek, atau pengalaman, edit fungsi `seedData()` di file `db.php`. Data akan di-reset jika file `portfolio.db` dihapus.
+
+## Lisensi & Kontak
+
+Proyek ini bersifat open source dan bebas digunakan sebagai referensi atau template.
+
+**Ahmad Izzuddin**
+- Email: akkuahmad23@email.com
+- GitHub: [github.com/akkuahmad](https://github.com/akkuahmad)
+- LinkedIn: [linkedin.com/in/akkuahmad](https://linkedin.com/in/akkuahmad)
